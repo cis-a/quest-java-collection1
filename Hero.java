@@ -27,4 +27,8 @@ public class Hero {
     public void setAge(int age) {
         this.age = age;
     }
+
+    public String toString () { //implements generic method that will be used when e.g. calling println
+      return "name: " + this.name + ", age: " +this.age;
+    }
 }
